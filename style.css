@@ -1,19 +1,21 @@
 body {
-    font-family: Roboto;
     display: flex;
     flex-direction: column;
     margin: 0px;
 }
 
+/*Universal padding*/
+.header, .section-1, .footer{
+    padding: 20px 150px;
+}
+
+/*Style for header*/
 .header {
     background-color: #1F2937;
-    color: white;
+    color: #f9faf8;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 150px;
-    font-weight: bolder;
-    font-size: large;
 }
 
 .link-container {
@@ -31,9 +33,14 @@ ul {
 
 a {
     text-decoration: none;
+    color: #e5e7eb;
 }
 
+/*Style for body*/
 .body {
     flex: 1;
 }
 
+.section-1 {
+    background-color: #1F2937;
+}
