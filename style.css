@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0px;
+    font-family: "Roboto";
 }
 
 /*Universal padding*/
@@ -16,6 +17,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .link-container {
@@ -43,4 +46,15 @@ a {
 
 .section-1 {
     background-color: #1F2937;
+    color: #f9faf8;
+    display: flex;
+}
+
+.section-1-header {
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.section-1-container, .image-placeholder {
+    flex: 1;
 }
