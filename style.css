@@ -5,25 +5,19 @@ body {
     font-family: "Roboto";
 }
 
-/*Universal padding*/
-.header, .section-1, .footer{
-    padding: 20px 150px;
+.header div{
+    flex: 1 1 auto;
 }
 
 /*Style for header*/
 .header {
-    background-color: #1F2937;
-    color: #f9faf8;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: 800;
-    font-size: 24px;
 }
 
-.link-container {
-    font-weight: 100;
-    font-size: medium;
+.header-container{
+    flex-shrink: 0;
+    display: flex;
+    justify-content: space-between;
 }
 
 ul {
@@ -31,13 +25,21 @@ ul {
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-    gap: 30px;
+    gap: 20px;
 }
 
 a {
     text-decoration: none;
-    color: #e5e7eb;
 }
+
+
+
+
+
+
+
+
+
 
 /*Style for body*/
 .body {
@@ -56,5 +58,10 @@ a {
 }
 
 .section-1-container, .image-placeholder {
-    flex: 1;
+    flex: 1 1 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
