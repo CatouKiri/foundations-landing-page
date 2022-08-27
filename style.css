@@ -1,12 +1,20 @@
-body {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
+/*This code is for the whole body*/
+
+* {
     font-family: "Roboto";
+    margin: 0px;
 }
 
-.header, .body{
+body, .header, .body, .header .container, ul, .section-1 {
     display: flex;
+}
+
+body {
+    flex-direction: column;
+}
+
+/*This code is for eveything inside the header*/
+.header, .body{
     background-color: #1f2937;
     color: #f9faf8;
     justify-content: center;
@@ -16,11 +24,8 @@ body {
     max-width: 1000px;
 }
 
-/*Style for header*/
-
 .header .container{
     flex: 1;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 24px;
@@ -29,7 +34,6 @@ body {
 }
 
 ul {
-    display: flex;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -43,28 +47,20 @@ a {
     text-decoration: none;
 }
 
-/*Style for body*/
-
-.section-1-header {
+/*This code containes everything inside section-1*/
+.hero-text {
     font-weight: 800;
     font-size: 48px;
     color: #f9faf8;
 }
 
 .section-1 {
-    margin: 100px 0px;
+    margin: 120px 0px;
     flex: 1;
     max-width: 1000px;
-    display: flex;
     justify-content: space-between;
     font-size: 18px;
     color: #e5e7eb;
-}
-
-img {
-    height: auto;
-    width: 100%;
-    flex: 1;
 }
 
 .section-1 div{
@@ -83,6 +79,11 @@ button {
     font-size: 18px;
     color: #e5e7eb;
     border-style: none;
-    font-family: "Roboto";
     font-weight: 550;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    flex: 1;
 }
