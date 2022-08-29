@@ -5,3 +5,4 @@ Problems with the code
     * Need to combine the header class and the body class for less redundancy.
     * Lessen class names and describe it better.
     * Use grouping selectors to lessen class names.
+    * Use padding and margin better.
